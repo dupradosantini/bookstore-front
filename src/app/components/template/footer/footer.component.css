@@ -1,0 +1,6 @@
+.footer{
+    position: fixed;
+    bottom: 0;
+    justify-content: flex-end;
+    background-color: rgb(155, 155, 155);
+}
