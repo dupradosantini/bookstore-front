@@ -1,0 +1,49 @@
+form{
+    text-align: center;
+    width: 70%;
+    margin: 2rem auto 0 auto;
+}
+
+h1{
+    font-size: 2rem;
+    color: rgb(95, 113, 97); 
+    font-weight: 900;
+    margin-bottom: 3rem;
+}
+
+.form{
+    width: 100%;
+}
+
+.label-name{
+    color: rgb(95, 113, 97); 
+    padding: 1rem;
+}
+
+mat-form-field{
+    width: 100%;
+}
+textarea{
+    background-color: rgb(208, 201, 192);
+}
+input{
+    background-color: rgb(208, 201, 192);
+}
+div{
+    padding: 3px;
+}
+
+.buttons{
+    width: 100%;
+    text-align: start;
+}
+button{
+    margin-bottom: 1rem;
+    background-color: rgb(109, 139, 116);
+    color: rgb(239, 234, 216);
+    width: auto;
+    margin-right: .5rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    margin-top: 2rem;
+}
