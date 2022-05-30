@@ -3,7 +3,7 @@
         <h1>Categorias</h1>
     </div>
 
-    <button mat-stroked-button color="primary">Nova Categoria</button>
+    <button (click)="redirectToCategoriaCreate()" mat-stroked-button color="primary">Nova Categoria</button>
     <!--Porcao extraida do angular material-->
     <div class="mat-elevation-z8 content-table">
         <table class="table" mat-table [dataSource]="categorias">
