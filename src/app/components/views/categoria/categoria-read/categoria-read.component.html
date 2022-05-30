@@ -1,0 +1,35 @@
+<div class="content">
+    <div class="title">
+        <h1>Categoria</h1>
+    </div>
+    <!--Porcao extraida do angular material-->
+    <div class="mat-elevation-z8 content-table">
+        <table class="table" mat-table>
+            <ng-container matColumnDef="id">
+              <th mat-header-cell *matHeaderCellDef> ID </th>
+              <td mat-cell *matCellDef="let row"> {{row.id}} </td>
+            </ng-container>
+          
+            <!-- Name Column -->
+            <ng-container matColumnDef="nome">
+              <th mat-header-cell *matHeaderCellDef> Nome </th>
+              <td mat-cell *matCellDef="let row"> {{row.nome}} </td>
+            </ng-container>
+          
+            <!-- Weight Column -->
+            <ng-container matColumnDef="descricao">
+              <th mat-header-cell *matHeaderCellDef> Descrição </th>
+              <td mat-cell *matCellDef="let row"> {{row.descricao}} </td>
+            </ng-container>
+          
+            <!-- Symbol Column -->
+            <ng-container matColumnDef="acoes">
+              <th mat-header-cell *matHeaderCellDef> Ações </th>
+              <td mat-cell *matCellDef="let row">  </td>
+            </ng-container>
+          
+            <tr mat-header-row *matHeaderelementDef="displayedColumns"></tr>
+            <tr mat-row *matelementDef="let row; columns: displayedColumns;"></tr>
+          </table>
+    </div>
+</div>
