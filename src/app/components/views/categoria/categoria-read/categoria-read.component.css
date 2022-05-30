@@ -3,6 +3,12 @@
     margin: 1.4rem auto auto;
 }
 
+button{
+    margin-bottom: 1rem;
+    background-color: rgb(109, 139, 116);
+    color: rgb(239, 234, 216);
+}
+
 .title{
     text-align: left;
     margin-bottom: 3rem;
@@ -16,4 +22,22 @@
 
 table{
     width: 100%;
+}
+
+.edit-icon{
+    color: rgb(95, 113, 97)
+}
+
+.delete-icon{
+    color: rgb(95, 113, 97);
+    margin-left: 1rem;
+}
+
+.book-icon{
+    margin-left: 0.5rem;
+    color: rgb(95, 113, 97);
+}
+
+.acoes-header{
+    width: 5rem;
 }
